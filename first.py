@@ -73,3 +73,4 @@ name = ''
         if i.isalpha():
             name+=1
 print(sasha_age + masha_age)
+
