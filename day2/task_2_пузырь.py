@@ -1,4 +1,4 @@
-c = [7, 8, 9, 5, 4, 0]
+c = [7, 8, 9, 5, 4, 0,48,54,2,2]
 for i in range(len(c) - 1):
     for j in range(len(c) - i - 1):
         if c[j] > c[j + 1]:
