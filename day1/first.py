@@ -27,6 +27,7 @@ ax.insert(0,'s')
 zx.insert(0,'l')
 ax.insert(2,zx)
 print(ax)
+
 import pprint
 data2 = {'firstname': 'ivan',  'lastname': 'Huk', 'old': age, 'list':[5,8,6,0], 'set':{'k', 'f','s'}, 'dict':{'first':1, 'second':2}}
 print(data2)
@@ -67,10 +68,6 @@ age = ''
 for i in data4:
         if i.isdigit():
             age+=i
-sasha_age = int(age[0:2])
-masha_age = int(age[2:4])
-name = ''
-        if i.isalpha():
-            name+=1
-print(sasha_age + masha_age)
+print(int(age[0:2]) + int(age[2:4]))
+print(data3.split(' ')[0] + ' '+ age[0:2] + ' ' + data3.split(' ')[2] + ' ' +age[2:4])
 
