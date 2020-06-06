@@ -1,4 +1,4 @@
-e = 'ga6]3-57.oi@-gmail.by.com'
+e = '.ga6]3-57.oi@-gmail.by.com'
 email = e.split('@')
 email1 = email[0]
 email2 = email[1]
@@ -12,22 +12,9 @@ email2 = email[1]
 # else:
 #     print('incorrect')
 s = ['.','_','-']
-# for i in email1[0]:
-#    if i in s:
-#         print('not')
-# for i in email1[-1]:
-#    if i in s:
-#         print('not')
-# for i in email2[0]:
-#    if i in s:
-#         print('not')
-# for i in email2[-1]:
-#    if i in s:
-#         print('not')
 for i in email1:
     for j in i:
-        if j in s:
-            if email1[0]==j or email1[-1]==j:
+        if (j in s and j in email1[0]) or (j in s and j in email1[-1]):
                 print('incorrect')
                 break
         elif j.isalnum() or j in s:  # почему не исключает остальные сиволы?
