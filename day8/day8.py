@@ -1,0 +1,11 @@
+text = open('щок.txt', 'r')
+first = text.readlines()
+print(first[0])
+print(first[5])
+print(first[:5])
+print(first[2:8])
+print(text.readlines())
+
+file = open("щок.txt", "w+")
+file.write("Цветаева\nДикая воля")
+file.close()
