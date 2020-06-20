@@ -7,9 +7,3 @@ with open('lich1.txt', 'r+', encoding ='utf-8') as d, open('lich2.txt', "w+", en
                 f.write('0')
             else:
                 f.write(line)
-    # t = f.readline(0).split()
-    # if len(g) == len(t):
-    #     print(len(g))
-    #     print(len(t))
-    #     print('\n')
-
