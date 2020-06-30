@@ -12,7 +12,7 @@ class Autor(Library):
                 self._autor = autor
 
 class Name(Autor):
-    def names (self, autor, name, books):
+    def __init__(self, autor, name, books):
         self._books = books
         self._autor = autor
         for k, v in books.items():
